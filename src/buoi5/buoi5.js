@@ -19,9 +19,7 @@ const Buoi5 = () => {
 
   const renderListProduct = () => {
     const a = state;
-    console.log(a);
     return (a?.map((item, key) => {
-        console.log(item.image);
       return (
         <div key={key}>
           name : {item.name}
